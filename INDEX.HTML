@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Kota Bhargavi - Computer Science Undergraduate, Backend & Machine Learning Developer based in Hyderabad, India.">
+    <meta name="author" content="Kota Bhargavi">
+    <meta property="og:title" content="Kota Bhargavi | Technical Portfolio">
+    <meta property="og:description" content="Computer Science undergraduate with expertise in Python, Flask, SQL, Machine Learning, and Web Development.">
+    <meta property="og:type" content="website">
+    <title>Kota Bhargavi | Portfolio</title>
+    
+    <!-- Font Awesome Icons CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Main CSS stylesheet -->
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <!-- Header & Navigation Bar -->
+    <header class="navbar-header">
+        <div class="nav-container">
+            <a href="#about" class="brand-logo">
+                <span class="logo-icon">B</span>
+                <span class="logo-text">Bhargavi<span>.dev</span></span>
+            </a>
+
+            <nav class="nav-links" id="navLinks">
+                <a href="#about" class="nav-item active"><i class="fa-solid fa-user nav-icon"></i>About</a>
+                <a href="#skills" class="nav-item"><i class="fa-solid fa-code nav-icon"></i>Skills</a>
+                <a href="#experience" class="nav-item"><i class="fa-solid fa-briefcase nav-icon"></i>Experience</a>
+                <a href="#projects" class="nav-item"><i class="fa-solid fa-diagram-project nav-icon"></i>Projects</a>
+                <a href="#education" class="nav-item"><i class="fa-solid fa-graduation-cap nav-icon"></i>Education</a>
+                <a href="#certifications" class="nav-item"><i class="fa-solid fa-certificate nav-icon"></i>Certifications</a>
+                <a href="#contact" class="nav-item"><i class="fa-solid fa-envelope nav-icon"></i>Contact</a>
+            </nav>
+
+            <button class="hamburger" id="hamburgerBtn" aria-label="Toggle navigation menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="hero-bg-grid"></div>
+            <div class="container hero-content">
+                <div class="hero-badge">
+                    <span class="pulse-dot"></span> Available for Software Engineering Opportunities
+                </div>
+                <h1 class="hero-title">Kota Bhargavi</h1>
+                <h2 class="hero-subtitle">Computer Science Undergraduate &amp; Software Developer[cite: 4]</h2>
+                <p class="hero-description">
+                    Hands-on experience in Python, Flask, backend development, APIs, and machine learning projects[cite: 4]. Skilled in developing scalable, secure, and data-driven applications[cite: 4].
+                </p>
+                <div class="hero-tags">
+                    <span class="tech-tag"><i class="fa-brands fa-python"></i> Python[cite: 4]</span>
+                    <span class="tech-tag"><i class="fa-solid fa-database"></i> SQL[cite: 4]</span>
+                    <span class="tech-tag"><i class="fa-solid fa-server"></i> Flask[cite: 4]</span>
+                    <span class="tech-tag"><i class="fa-solid fa-brain"></i> Machine Learning[cite: 4]</span>
+                    <span class="tech-tag"><i class="fa-solid fa-chart-bar"></i> Power BI[cite: 4]</span>
+                </div>
+                <div class="hero-cta">
+                    <a href="#projects" class="btn btn-primary"><i class="fa-solid fa-eye"></i> View Projects</a>
+                    <a href="images/resume.pdf" download class="btn btn-secondary"><i class="fa-solid fa-download"></i> Download Resume</a>
+                    <a href="#contact" class="btn btn-outline"><i class="fa-solid fa-paper-plane"></i> Contact Me</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><i class="fa-solid fa-user-gear"></i> Objective &amp; Overview</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="about-card card">
+                    <div class="about-grid">
+                        <div class="about-main">
+                            <h3 class="about-heading">Career Objective</h3>
+                            <p class="about-text">
+                                Computer Science undergraduate with hands-on experience in Python, Flask, backend development, APIs, and machine learning projects[cite: 4]. Skilled in developing scalable, secure, and data-driven applications, with strong problem-solving abilities and a passion for software engineering[cite: 4].
+                            </p>
+                        </div>
+                        <div class="about-stats">
+                            <div class="stat-box">
+                                <i class="fa-solid fa-location-dot stat-icon"></i>
+                                <div class="stat-info">
+                                    <span class="stat-label">Location</span>
+                                    <span class="stat-value">Hyderabad, India[cite: 4]</span>
+                                </div>
+                            </div>
+                            <div class="stat-box">
+                                <i class="fa-solid fa-user-graduate stat-icon"></i>
+                                <div class="stat-info">
+                                    <span class="stat-label">Degree</span>
+                                    <span class="stat-value">B.Tech CSE (2022–2026)[cite: 4]</span>
+                                </div>
+                            </div>
+                            <div class="stat-box">
+                                <i class="fa-solid fa-chart-line stat-icon"></i>
+                                <div class="stat-info">
+                                    <span class="stat-label">Academic Performance</span>
+                                    <span class="stat-value">7.6 CGPA[cite: 4]</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technical Skills Section -->
+        <section id="skills" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><i class="fa-solid fa-laptop-code"></i> Technical &amp; Core Competencies</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="skills-grid">
+                    <!-- Primary Languages -->
+                    <div class="skill-card card">
+                        <div class="skill-card-header">
+                            <i class="fa-solid fa-code skill-card-icon"></i>
+                            <h3>Primary Languages</h3>
+                        </div>
+                        <ul class="skill-list">
+                            <li><i class="fa-brands fa-python"></i> Python[cite: 4]</li>
+                            <li><i class="fa-solid fa-database"></i> SQL[cite: 4]</li>
+                        </ul>
+                    </div>
+
+                    <!-- Core CS -->
+                    <div class="skill-card card">
+                        <div class="skill-card-header">
+                            <i class="fa-solid fa-microchip skill-card-icon"></i>
+                            <h3>Core CS Concepts</h3>
+                        </div>
+                        <ul class="skill-list">
+                            <li><i class="fa-solid fa-network-wired"></i> Database Management Systems (DBMS)[cite: 4]</li>
+                            <li><i class="fa-solid fa-sliders"></i> Operating Systems (OS)[cite: 4]</li>
+                            <li><i class="fa-solid fa-diagram-project"></i> Computer Networks[cite: 4]</li>
+                        </ul>
+                    </div>
+
+                    <!-- Data Analysis & Visualization -->
+                    <div class="skill-card card">
+                        <div class="skill-card-header">
+                            <i class="fa-solid fa-chart-pie skill-card-icon"></i>
+                            <h3>Data Analysis &amp; Visualization</h3>
+                        </div>
+                        <ul class="skill-list">
+                            <li><i class="fa-solid fa-square-poll-vertical"></i> NumPy[cite: 4]</li>
+                            <li><i class="fa-solid fa-file-excel"></i> Microsoft Excel[cite: 4]</li>
+                            <li><i class="fa-solid fa-chart-column"></i> Power BI[cite: 4]</li>
+                        </ul>
+                    </div>
+
+                    <!-- Tools & Platforms -->
+                    <div class="skill-card card">
+                        <div class="skill-card-header">
+                            <i class="fa-solid fa-screwdriver-wrench skill-card-icon"></i>
+                            <h3>Tools &amp; Platforms</h3>
+                        </div>
+                        <ul class="skill-list">
+                            <li><i class="fa-brands fa-git-alt"></i> Git[cite: 4]</li>
+                            <li><i class="fa-solid fa-code"></i> VS Code[cite: 4]</li>
+                            <li><i class="fa-solid fa-server"></i> Flask Framework[cite: 4]</li>
+                        </ul>
+                    </div>
+
+                    <!-- Soft Skills -->
+                    <div class="skill-card card full-width">
+                        <div class="skill-card-header">
+                            <i class="fa-solid fa-people-group skill-card-icon"></i>
+                            <h3>Soft Skills</h3>
+                        </div>
+                        <div class="soft-skills-container">
+                            <span class="chip"><i class="fa-solid fa-rotate"></i> Adaptability[cite: 4]</span>
+                            <span class="chip"><i class="fa-solid fa-users"></i> Team Collaboration[cite: 4]</span>
+                            <span class="chip"><i class="fa-solid fa-handshake"></i> Teamwork[cite: 4]</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience / Internships Section -->
+        <section id="experience" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><i class="fa-solid fa-briefcase"></i> Experience &amp; Internships</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="timeline">
+                    <!-- Celonis Internship -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"><i class="fa-solid fa-gear"></i></div>
+                        <div class="timeline-content card">
+                            <div class="timeline-header">
+                                <h3>Celonis Virtual Internship</h3>
+                                <span class="badge">EduSkills[cite: 4]</span>
+                            </div>
+                            <h4 class="timeline-role">Process Mining Intern</h4>
+                            <p class="timeline-desc">
+                                Gained practical experience in process mining workflows, operational optimization, and analytical methodologies through the Celonis virtual internship program hosted via EduSkills[cite: 4].
+                            </p>
+                            <div class="timeline-tags">
+                                <span>Process Mining[cite: 4]</span>
+                                <span>Data Analytics[cite: 4]</span>
+                                <span>EduSkills[cite: 4]</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Zscaler Internship -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"><i class="fa-solid fa-shield-halved"></i></div>
+                        <div class="timeline-content card">
+                            <div class="timeline-header">
+                                <h3>Zscaler Virtual Internship</h3>
+                                <span class="badge">Zscaler[cite: 4]</span>
+                            </div>
+                            <h4 class="timeline-role">Cybersecurity Intern</h4>
+                            <p class="timeline-desc">
+                                Strengthened domain knowledge in cybersecurity fundamentals, cloud security standards, network protection protocols, and enterprise security practices[cite: 4].
+                            </p>
+                            <div class="timeline-tags">
+                                <span>Cybersecurity[cite: 4]</span>
+                                <span>Cloud Security[cite: 4]</span>
+                                <span>Network Protection[cite: 4]</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><i class="fa-solid fa-diagram-project"></i> Technical Projects</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card card">
+                        <div class="project-header">
+                            <div class="project-icon"><i class="fa-solid fa-notes-medical"></i></div>
+                            <h3 class="project-title">Detection and Stage Prediction of Kidney Disease Using Machine Learning[cite: 4]</h3>
+                        </div>
+                        <div class="project-body">
+                            <p class="project-description">
+                                Built a comprehensive Flask-based Chronic Kidney Disease (CKD) prediction web application featuring user authentication (login/registration), report upload mechanisms, and automated visual result reporting[cite: 4].
+                            </p>
+                            <h4 class="project-subhead">Key Responsibilities &amp; Implementations:</h4>
+                            <ul class="project-list">
+                                <li>Trained and deployed a Random Forest classification model to predict CKD stages with high accuracy[cite: 4].</li>
+                                <li>Enabled PDF and image report parsing, multi-report analysis, and real-time clinical warning generation using HTML, CSS, and JavaScript[cite: 4].</li>
+                                <li>Integrated medical data parsing with interactive frontend visualizations for clinical assessment[cite: 4].</li>
+                            </ul>
+                            <div class="project-tech">
+                                <span class="tech-pill">Python[cite: 4]</span>
+                                <span class="tech-pill">Flask[cite: 4]</span>
+                                <span class="tech-pill">Random Forest ML[cite: 4]</span>
+                                <span class="tech-pill">HTML/CSS/JS[cite: 4]</span>
+                                <span class="tech-pill">PDF &amp; Image Parsing[cite: 4]</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project-card card">
+                        <div class="project-header">
+                            <div class="project-icon"><i class="fa-solid fa-file-invoice"></i></div>
+                            <h3 class="project-title">Automatic Resume Maker[cite: 4]</h3>
+                        </div>
+                        <div class="project-body">
+                            <p class="project-description">
+                                Developed an intuitive web application designed to generate over 100+ ATS-compliant resumes using pure frontend web technologies[cite: 4].
+                            </p>
+                            <h4 class="project-subhead">Key Responsibilities &amp; Implementations:</h4>
+                            <ul class="project-list">
+                                <li>Built user interfaces using HTML, CSS, and JavaScript to streamline dynamic resume compilation[cite: 4].</li>
+                                <li>Improved overall resume generation efficiency, enabling candidates to highlight technical skill sets effectively[cite: 4].</li>
+                                <li>Enhanced recruiter trust by implementing real-time applicant skill-matching capabilities[cite: 4].</li>
+                            </ul>
+                            <div class="project-tech">
+                                <span class="tech-pill">HTML[cite: 4]</span>
+                                <span class="tech-pill">CSS[cite: 4]</span>
+                                <span class="tech-pill">JavaScript[cite: 4]</span>
+                                <span class="tech-pill">ATS Optimization[cite: 4]</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><i class="fa-solid fa-graduation-cap"></i> Academic Background</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="education-grid">
+                    <!-- B.Tech Card -->
+                    <div class="education-card card">
+                        <div class="edu-icon"><i class="fa-solid fa-university"></i></div>
+                        <div class="edu-details">
+                            <span class="edu-year">2022 – 2026[cite: 4]</span>
+                            <h3>B.Tech in Computer Science and Engineering[cite: 4]</h3>
+                            <h4>Sphoorthy Engineering College, Hyderabad[cite: 4]</h4>
+                            <div class="edu-score">
+                                <span class="score-label">CGPA:</span>
+                                <span class="score-value">7.6[cite: 4]</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Intermediate Card -->
+                    <div class="education-card card">
+                        <div class="edu-icon"><i class="fa-solid fa-school"></i></div>
+                        <div class="edu-details">
+                            <span class="edu-year">2020 – 2022[cite: 4]</span>
+                            <h3>Intermediate (MPC Stream)[cite: 4]</h3>
+                            <h4>Narayana Junior College, Hyderabad[cite: 4]</h4>
+                            <div class="edu-score">
+                                <span class="score-label">Percentage:</span>
+                                <span class="score-value">80%[cite: 4]</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications Section -->
+        <section id="certifications" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><i class="fa-solid fa-certificate"></i> Certifications &amp; Training</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="certifications-grid">
+                    <div class="cert-card card">
+                        <i class="fa-brands fa-java cert-icon"></i>
+                        <div class="cert-content">
+                            <h3>Java (Basics)[cite: 4]</h3>
+                            <span class="cert-issuer">HackerRank[cite: 4]</span>
+                        </div>
+                    </div>
+
+                    <div class="cert-card card">
+                        <i class="fa-solid fa-building-columns cert-icon"></i>
+                        <div class="cert-content">
+                            <h3>Accenture Developer Job Simulation[cite: 4]</h3>
+                            <span class="cert-issuer">Forage[cite: 4]</span>
+                        </div>
+                    </div>
+
+                    <div class="cert-card card">
+                        <i class="fa-solid fa-cloud cert-icon"></i>
+                        <div class="cert-content">
+                            <h3>Salesforce Developer Course[cite: 4]</h3>
+                            <span class="cert-issuer">Yuva Foundation[cite: 4]</span>
+                        </div>
+                    </div>
+
+                    <div class="cert-card card">
+                        <i class="fa-solid fa-brain cert-icon"></i>
+                        <div class="cert-content">
+                            <h3>Introduction to Artificial Intelligence[cite: 4]</h3>
+                            <span class="cert-issuer">IBM SkillsBuild[cite: 4]</span>
+                        </div>
+                    </div>
+
+                    <div class="cert-card card">
+                        <i class="fa-solid fa-layer-group cert-icon"></i>
+                        <div class="cert-content">
+                            <h3>Java Full Stack[cite: 4]</h3>
+                            <span class="cert-issuer">Wipro[cite: 4]</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section id="testimonials" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><i class="fa-solid fa-comments"></i> Professional Recommendations</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="testimonial-carousel card">
+                    <div class="carousel-container">
+                        <div class="testimonial-slide active">
+                            <div class="quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+                            <p class="testimonial-text">
+                                Professional recommendations and peer feedback can be added here as professional references become available.
+                            </p>
+                            <div class="testimonial-author">
+                                <strong>Peer / Mentor Endorsement</strong>
+                                <span>Academic &amp; Project Collaboration Placeholder</span>
+                            </div>
+                        </div>
+                        <div class="testimonial-slide">
+                            <div class="quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+                            <p class="testimonial-text">
+                                Demonstrates strong backend logic, Python programming competency, and rapid adaptation to machine learning frameworks.
+                            </p>
+                            <div class="testimonial-author">
+                                <strong>Technical Reviewer</strong>
+                                <span>Software Engineering Project Evaluation</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-controls">
+                        <button class="carousel-btn prev" id="prevTestimonial" aria-label="Previous testimonial"><i class="fa-solid fa-chevron-left"></i></button>
+                        <div class="carousel-indicators" id="carouselIndicators">
+                            <span class="indicator active"></span>
+                            <span class="indicator"></span>
+                        </div>
+                        <button class="carousel-btn next" id="nextTestimonial" aria-label="Next testimonial"><i class="fa-solid fa-chevron-right"></i></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><i class="fa-solid fa-address-book"></i> Get In Touch</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="contact-grid">
+                    <div class="contact-info card">
+                        <h3>Contact Information</h3>
+                        <p>Feel free to reach out for career opportunities, technical inquiries, or collaborations[cite: 4].</p>
+                        
+                        <div class="contact-list">
+                            <a href="mailto:bhargavibhargavi7916@gmail.com" class="contact-item">
+                                <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+                                <div class="contact-text">
+                                    <span class="label">Email[cite: 4]</span>
+                                    <span class="val">bhargavibhargavi7916@gmail.com[cite: 4]</span>
+                                </div>
+                            </a>
+
+                            <a href="tel:8897951480" class="contact-item">
+                                <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
+                                <div class="contact-text">
+                                    <span class="label">Phone[cite: 4]</span>
+                                    <span class="val">+91 8897951480[cite: 4]</span>
+                                </div>
+                            </a>
+
+                            <div class="contact-item">
+                                <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+                                <div class="contact-text">
+                                    <span class="label">Location[cite: 4]</span>
+                                    <span class="val">Hyderabad, India[cite: 4]</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="social-links">
+                            <a href="https://linkedin.com/in/kota-bhargavi" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="LinkedIn Profile">
+                                <i class="fa-brands fa-linkedin-in"></i> LinkedIn[cite: 4]
+                            </a>
+                            <a href="https://github.com/Bhargavil480" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="GitHub Profile">
+                                <i class="fa-brands fa-github"></i> GitHub[cite: 4]
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="contact-card card">
+                        <h3>Direct Transmission</h3>
+                        <form class="contact-form" onsubmit="event.preventDefault();">
+                            <div class="form-group">
+                                <label for="sender-name">Name</label>
+                                <input type="text" id="sender-name" placeholder="Your Full Name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="sender-email">Email</label>
+                                <input type="email" id="sender-email" placeholder="Your Email Address" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="sender-message">Message</label>
+                                <textarea id="sender-message" rows="4" placeholder="Your Message..." required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary full-btn"><i class="fa-solid fa-paper-plane"></i> Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <span class="logo-icon">B</span>
+                <span>Kota Bhargavi[cite: 4]</span>
+            </div>
+            <p class="footer-copy">
+                &copy; <span id="currentYear"></span> Kota Bhargavi. All Rights Reserved.[cite: 4]
+            </p>
+            <div class="footer-links">
+                <a href="https://linkedin.com/in/kota-bhargavi" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i>[cite: 4]</a>
+                <a href="https://github.com/Bhargavil480" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i>[cite: 4]</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Main JavaScript File -->
+    <script src="index.js"></script>
+</body>
+</html>
